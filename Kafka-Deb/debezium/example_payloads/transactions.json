@@ -1,0 +1,37 @@
+{
+	"schema": {},
+	"payload": {
+		"before": null,
+		"after": {
+			"transaction_hash": "9seZXNFjWCB1orFEMwtjzkSRqsHXmu6xpjx2h5zhEnK8",
+			"included_in_block_hash": "5Bf2w5S3CCnh4cAVzvtvDBTrCFAof4GMW9jKfBGPZKdN",
+			"included_in_chunk_hash": "63Lhk2Y5cCQM88rRdmm2jsJDQ5eZxhJc7YLLV3xEE791",
+			"index_in_chunk": 0,
+			"block_timestamp": 1644406235286453405,
+			"signer_account_id": "app.nearcrowd.near",
+			"signer_public_key": "ed25519:6j4aNwVBP1TTQxcnM36buQoZs3r7bZ48VpU7K1zRbTZ5",
+			"nonce": 42863319826967,
+			"receiver_account_id": "app.nearcrowd.near",
+			"signature": "ed25519:jY9TErnT51x6Z21YhzsfVQHWKZgCoypd9bbSpyubfsTLRf1pjY4vHEvMwFF9U8zbRnQ21qhC89yMvqyAEngv1Bi",
+			"status": "SUCCESS_RECEIPT_ID",
+			"converted_into_receipt_id": "A9fAtsKq72idQHG23Qd3N6C8XXrazNt8ZJ4wsaWRCLWc",
+			"receipt_conversion_gas_burnt": 2428068571644,
+			"receipt_conversion_tokens_burnt": 242806857164400000000.0
+		},
+		"source": {
+			"version": "1.0.3.Final",
+			"connector": "postgresql",
+			"name": "PostgreSQL_server",
+			"ts_ms": 1559033904863,
+			"snapshot": true,
+			"db": "postgres",
+			"schema": "public",
+			"table": "transactions",
+			"txId": 555,
+			"lsn": 24023128,
+			"xmin": null
+		},
+		"op": "c",
+		"ts_ms": 1559033904863
+	}
+}

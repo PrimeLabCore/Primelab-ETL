@@ -1,0 +1,14 @@
+RDS Parameter Group Changes
+
+Name                            Value
+rds.logical_replication         1
+max_wal_senders                 1
+max_replication_slots           1
+
+After this change, restart the instance then verify that wal_level = logical (this parameter cannot be changed but should update automatically).
+Do this by running SHOW wal_level as postgres user on the database.
+
+We need the following rules setup (won't be needed currently as all outbound is open)
+local   replication     dbz_cdc                          trust   
+host    replication     dbz_cdc  127.0.0.1/32            trust   
+host    replication     dbz_cdc  ::1/128                 trust

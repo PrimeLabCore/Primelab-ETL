@@ -1,0 +1,39 @@
+{
+	"schema": {},
+	"payload": {
+		"before": null,
+		"after": {
+			"receipt_id": "A9fAtsKq72idQHG23Qd3N6C8XXrazNt8ZJ4wsaWRCLWc",
+			"index_in_action_receipt": 0,
+			"action_kind": "FUNCTION_CALL",
+			"args": {
+				"gas": 200000000000000,
+				"deposit": "0",
+				"args_json": {
+					"account_id": "cesc.near",
+					"task_ordinal": 1
+				},
+				"args_base64": "eyJ0YXNrX29yZGluYWwiOjEsImFjY291bnRfaWQiOiJjZXNjLm5lYXIifQ==",
+				"method_name": "return_assignment_admin"
+			},
+			"receipt_predecessor_account_id": "app.nearcrowd.near",
+			"receipt_receiver_account_id": "app.nearcrowd.near",
+			"receipt_included_in_block_timestamp": 1644406235286453405
+		},
+		"source": {
+			"version": "1.0.3.Final",
+			"connector": "postgresql",
+			"name": "PostgreSQL_server",
+			"ts_ms": 1559033904863,
+			"snapshot": true,
+			"db": "postgres",
+			"schema": "public",
+			"table": "action_receipt_actions",
+			"txId": 555,
+			"lsn": 24023128,
+			"xmin": null
+		},
+		"op": "c",
+		"ts_ms": 1559033904863
+	}
+}
