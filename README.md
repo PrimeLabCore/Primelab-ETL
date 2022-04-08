@@ -1144,7 +1144,7 @@ c) Who are the top 5 users who did the highest number of transactions in March 2
 
 etc…
 
-[NEAR_AI_assistant_for_business.mkv](Primelab%20E%205d220/NEAR_AI_assistant_for_business.mkv)
+[Near Protocol Query Assistant.mkv](https://github.com/NearPrime/Primelab-ETL/blob/main/docs/NEAR_AI_assistant_for_business.mkv?raw=true)
 
 ### **b) Visualization**
 
@@ -1152,19 +1152,19 @@ We are also adding a separate section to this app where the AI can also generate
 
 ### **1. Plot the daily time series of new users**
 
-![image-20220406-070456.png](Primelab%20E%205d220/image-20220406-070456.png)
+![Daily time Series](https://github.com/NearPrime/Primelab-ETL/blob/main/docs/image-20220406-070456.png?raw=true)
 
 ****2. Plot the daily time series of returning users****
 
-![image-20220406-071327.png](Primelab%20E%205d220/image-20220406-071327.png)
+![Daily returning users](https://github.com/NearPrime/Primelab-ETL/blob/main/docs/image-20220406-071327.png)
 
 ****3. Plot the top 5 signer_account_id who did the highest numbers of transactions****
 
-![image-20220406-070643.png](Primelab%20E%205d220/image-20220406-070643.png)
+![Top 5 Signer](https://github.com/NearPrime/Primelab-ETL/blob/main/docs/image-20220406-070643.png)
 
 ****4. Plot the histogram of receipt_conversion_gas_burnt****
 
-![image-20220406-071202.png](Primelab%20E%205d220/image-20220406-071202.png)
+![Histogram](https://github.com/NearPrime/Primelab-ETL/blob/main/docs/image-20220406-071202.png)
 
 ## Useful Links
 
