@@ -9,7 +9,7 @@ We have developed a highly available system for both relational and graph analys
 
 </aside>
 
-![Basic Chart ](Primelab%20E%205d220/ETL_Diagram_for_Joey_(1).svg)
+![Basic Chart](https://raw.githubusercontent.com/NearPrime/Primelab-ETL/930f0fce2eb8b717547750502b9473ae6fde2cf0/docs/ETL_Diagram_for_Joey_(1).svg)
 
 Basic Chart 
 
@@ -1122,7 +1122,7 @@ We used this powerful pretrained model and use its embedding to parse user quest
 
 ### Running the code
 
-1. Clone the repository here [https://github.com/NearPrime/dataOps-notebooks/tree/master/sagarnil/fastapi_sql/fastapiapp_v2](https://github.com/NearPrime/dataOps-notebooks/tree/master/sagarnil/fastapi_sql/fastapiapp_v2)
+1. Clone the repository here [NLPQ](https://github.com/NearPrime/Primelab-ETL/tree/main/NLPQ)
 2. run `pip install -r requirements.txt`
 3. From outside the fastapiapp_v2 folder, run uvicorn fastapiapp_v2.main:app --reload --workers 1 --host 0.0.0.0 --port 8001
 4. Go to [http://localhost:8001/docs](http://localhost:8001/docs)
